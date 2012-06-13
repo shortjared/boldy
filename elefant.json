@@ -1,0 +1,16 @@
+{
+    "type":         "theme",
+    "folder":       "boldy",
+    "name":         "boldy",
+    "version":      "1.0.0",
+    "website":      "http://www.jaredshort.com/",
+    "repository":   "git://github.com/shortjared/boldy.git",
+    "author": {
+        "name":     "Jared Short",
+        "email":    "jaredlshort@gmail.com"
+    },
+    "requires": {
+        "php": "5.3.2",
+        "elefant": "1.0.1"
+    }
+}
