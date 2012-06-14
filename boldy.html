@@ -57,42 +57,9 @@
 		<div id="content">
 		
 {% if id == 'index' %}
-<!-- BEGIN SLIDER -->
-	  <div id="slider">
-	  		<a href="http://www.site5.com"><img class="alignnone size-full wp-image-254" src="http://wordpress.site5.net/boldy/wp-content/uploads/2010/07/sample1.png" title="" alt="" width="960" height="370" /></a>
-
-<a href="http://wordpress.site5.net/boldy/wp-content/uploads/2010/07/sample2.png"><img class="alignnone size-full wp-image-255" title="This is the caption2, added in the Title field of the image at inserting in the page." src="http://wordpress.site5.net/boldy/wp-content/uploads/2010/07/sample2.png" alt="" width="960" height="370" /></a>
-
-<a href="http://wordpress.site5.net/boldy/wp-content/uploads/2010/07/sample3.png"><img class="alignnone size-full wp-image-256" title="This is the caption3, added in the Title field of the image at inserting in the page." src="http://wordpress.site5.net/boldy/wp-content/uploads/2010/07/sample3.png" alt="" width="960" height="370" /></a>		</div>
-	   <div style="width:960px; margin:0 auto; background:url(http://wordpress.site5.net/boldy/wp-content/themes/boldy/images/bk_shadow_slider.png) 0 0 no-repeat; height:50px;"></div>
+		 <!-- BEGIN SLIDER -->
+				{! filemanager/slideshow?path=homepage !}
 	   <!-- END SLIDER -->
-	   
-	   <!-- SLIDER SETTINGS -->
-	   <script type="text/javascript">
-			$(window).load(function() {
-				$('#slider').nivoSlider({
-					effect:'random', //Specify sets like: 'fold,fade,sliceDown'
-					slices:15,
-					animSpeed:500,
-					pauseTime:3000,
-					startSlide:0, //Set starting Slide (0 index)
-					directionNav:true, //Next & Prev
-					directionNavHide:true, //Only show on hover
-					controlNav:true, //1,2,3...
-					controlNavThumbs:false, //Use thumbnails for Control Nav
-					controlNavThumbsFromRel:false, //Use image rel for thumbs
-					controlNavThumbsSearch: '.jpg', //Replace this with...
-					controlNavThumbsReplace: '_thumb.jpg', //...this in thumb Image src
-					keyboardNav:true, //Use left & right arrows
-					pauseOnHover:true, //Stop animation while hovering
-					manualAdvance:false, //Force manual transitions
-					captionOpacity:0.8, //Universal caption opacity
-					beforeChange: function(){},
-					afterChange: function(){},
-					slideshowEnd: function(){} //Triggers after all slides have been shown
-				});
-			});
-			</script>
 	   
 
 	   <!-- BEGIN BLURB -->
